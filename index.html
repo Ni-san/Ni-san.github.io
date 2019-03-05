@@ -6,8 +6,150 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pavel Chaplygin</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Site is under construction</h1>
+<div class="container text-monospace">
+    <header class="row">
+        <div class="col-sm">
+            <h1>Pavel Chaplygin
+                <small class="text-muted">web developer</small>
+            </h1>
+        </div>
+    </header>
+
+    <div class="row">
+        <aside class="col-sm-4">
+            <div class="avatar-container">
+                <img src="res/pchapl.jpg"
+                     height="289"
+                     width="289"
+                     alt="My photo"
+                     class="avatar img-fluid"
+                     title="todo: Make new photo, where my face could be recognized"/>
+            </div>
+            <section class="contacts">
+                <header><h3>Contact me</h3></header>
+                <p>via email <a rel="noreferrer noopener"
+                                href="mailto:ni.san.qwer@gmail.com">ni.san.qwer@gmail.com</a>
+                </p>
+            </section>
+            <section class="links">
+                <header><h3>Some extra links</h3></header>
+                <p>
+                    <a target="_blank"
+                       rel="noreferrer noopener"
+                       href="https://github.com/pchapl">GitHub</a>
+                </p>
+                <p>
+                    <a target="_blank"
+                       rel="noreferrer noopener"
+                       href="https://www.linkedin.com/in/%D0%BF%D0%B0%D0%B2%D0%B5%D0%BB-%D1%87%D0%B0%D0%BF%D0%BB%D1%8B%D0%B3%D0%B8%D0%BD-b8a066105/">LinkedIn</a>
+                </p>
+            </section>
+        </aside>
+
+        <section class="col-sm">
+            <article>
+                <header>
+                    <h2>Abstract</h2>
+                </header>
+                <section>
+                    <article>
+                        <header>
+                            <h3>Who am I?</h3>
+                        </header>
+
+                        <p>I'm software developer specialized in creating non-trivial web applications, such as CRM,
+                            B2B2C services, fin-tech solutions.</p>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3>What technologies do I use?</h3>
+                        </header>
+
+                        <p>My primary language is PHP. But since the range of tasks is very wide I use a lot of
+                            languages and tools in my daily work. Some of them are SQL (including PL/pgSQL), JavaScript
+                            (ES6+, TypeScript, Node.js etc), Golang, Python.</p>
+                        <p>And of course the dozens of libs/frameworks/tools/whatever:</p>
+                        <ul>
+                            <li>Yii2</li>
+                            <li>React (with Redux)</li>
+                            <li>Angular.js and Angular 2+</li>
+                            <li>Vue.js</li>
+                            <li>RxJs</li>
+                            <li>HumHub</li>
+                            <li>Codeception</li>
+                            <li>PHPUnit</li>
+                            <li>Webpack</li>
+                            <li>Pug (aka jade)</li>
+                            <li>sass/less/scss</li>
+                            <li>Memcached</li>
+                            <li>Redis</li>
+                            <li>RabbitMQ</li>
+                            <li>ActiveMQ</li>
+                            <li>Zabbix</li>
+                            <li>Nginx</li>
+                            <li>PostgreSQL</li>
+                            <li>Bunch of static analyzers and linters</li>
+                            <li>And more</li>
+                        </ul>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3>Some examples?</h3>
+                        </header>
+
+                        <p>Of course. Some projects are hidden, but here are few links:</p>
+                        <ul>
+                            <li>
+                                <a target="_blank"
+                                   rel="noreferrer noopener"
+                                   href="https://spacepass.global/">SpacePass</a> - online smart offices management
+                                platform, with marketplace, mobile apps, social hub, embedded widgets and other stuff
+                            </li>
+                            <li>
+                                <a target="_blank"
+                                   rel="noreferrer noopener"
+                                   href="https://freematiq.com/portfolio/i-retail/">[ru] i-Retail</a> - online shops,
+                                management system for offline-shops, cash equipment
+                            </li>
+                            <li>
+                                <a target="_blank"
+                                   rel="noreferrer noopener"
+                                   href="https://freematiq.com/portfolio/razrabotka-servisa-po-priyemu-i-vyplate-platezhey-payin-payout/">[ru]
+                                    Payin-Payout</a> - payment system
+                            </li>
+                        </ul>
+                        <p>Sometimes I have a time for open-source contributions, besides commercial projects, so you
+                            can find some kind of examples on my GitHub</p>
+                    </article>
+
+                    <article>
+                        <header>
+                            <h3>Finally, who am I?</h3>
+                        </header>
+
+                        <p>I'm a human who's interested in solving problems by programming. I like to find solutions for
+                            complicated business-problems. I like to make myself useful for teammates and whole
+                            community. I also like to create something awesome and incredible. I like to make world a
+                            bit better.</p>
+                    </article>
+                </section>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <hr>
+        <p onclick="console.log('Copyright was clicked')">&copy; Pavel Chaplygin, 2019</p>
+    </footer>
+</div>
 </body>
 </html>
