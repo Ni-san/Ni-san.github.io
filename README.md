@@ -7,4 +7,4 @@
 
 ## Deploy
 
-https://gist.github.com/cobyism/4730490
+Script `deploy.sh` will clean up, build, commit and push site to the `master` branch
