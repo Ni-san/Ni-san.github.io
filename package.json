@@ -1,0 +1,30 @@
+{
+  "name": "pchapl",
+  "version": "1.0.0",
+  "author": "Pavel Chaplygin <ni.san.qwer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --progress --colors  --display-error-details",
+    "build": "NODE_ENV=production webpack --progress --colors --optimize-minimize --display-error-details"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "compression-webpack-plugin": "*",
+    "css-loader": "*",
+    "doctypes": "^1.1.0",
+    "file-loader": "*",
+    "html-webpack-plugin": "*",
+    "node-sass": "*",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "*"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
