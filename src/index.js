@@ -1,6 +1,9 @@
 import 'style.sass';
 import {Application} from "./Application";
 import {Header} from "./components/Header";
+import {Spy} from "./spy";
+
+Spy();
 
 const components = {
     Header,
