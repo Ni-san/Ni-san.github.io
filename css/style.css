@@ -16,19 +16,10 @@ h3 {
 }
 
 .avatar {
+    box-sizing: content-box;
     border: 1px solid black;
 }
 
 footer {
     padding: 20px;
-}
-
-@media only screen and (max-width: 767px) and (min-width: 576px) {
-    .long-email {
-        overflow: hidden;
-    }
-
-    .long-email:hover {
-        overflow: visible;
-    }
 }
