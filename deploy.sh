@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 rm -f ./dist/bundle-* \
-    && rm -f index.html \
+    && rm -f ./dist/index.html \
     && yarn run build \
     && cd dist/ \
     && git add -A \
