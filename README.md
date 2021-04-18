@@ -3,7 +3,12 @@
 ## Run
 
 * dev: `yarn run start`
+
+>  http://localhost:8080/
+
 * prod: `yarn run build`
+
+> https://pchapl.dev
 
 ## Deploy
 
